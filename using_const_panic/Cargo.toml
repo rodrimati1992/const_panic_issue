@@ -1,0 +1,9 @@
+[package]
+name = "using_const_panic"
+version = "0.1.0"
+authors = ["<none>"]
+edition = "2018"
+
+[dependencies]
+const_panic_proc_macro={path="../const_panic_proc_macro/"}
+macro_rules_panic={path="../macro_rules_panic/"}
